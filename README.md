@@ -1,54 +1,59 @@
-# React + TypeScript + Vite
+# Projeto 02- Busca de Perfil no GitHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objetivo: 
 
-Currently, two official plugins are available:
+O desafio final consiste em desenvolver uma aplicação React que permite buscar perfis do GitHub e exibir informações do usuário conforme o layout do Figma
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Requisitos para o desenvolvimento:
+1️⃣ Criar um campo de busca, onde o usuário digita o nome de um perfil do GitHub
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+2️⃣ Ao clicar no botão de busca, a aplicação deve consumir a API do GitHub e exibir as seguintes informações do usuário, customizando conforme layout do figma:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Nome do usuário
+Foto de perfil
+Bio
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+3️⃣ Exibir mensagens de erro caso o perfil não seja encontrado
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+4️⃣ Estilizar o layout seguindo o design do Figma
+
+O candidato pode utilizar um framework CSS como Bootstrap, Tailwind ou outro
+
+5️⃣ Opcional: Melhorar a experiência do usuário com efeitos visuais e loading durante a requisição
+
+### Preview 
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+## Tecnologias utilizadas
+* React
+* TypeScript
+* Vite
+* CSS Modules
+* React Icons
+
+## Para rodar o projeto
+* 1- Clone o repositório
+
+  ```bash
+  git clone https://github.com/MauricioJrB/project-02-avanti-test.git
+  ```
+
+  ```bash
+  cd nome-do-projeto
+  ```
+
+* 2- Instale as dependências
+  ```bash
+  npm install
+  ```
+
+* 3- Rode o projeto
+  ```bash
+  npm run dev
+  ```
