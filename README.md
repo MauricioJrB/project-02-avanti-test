@@ -24,11 +24,11 @@ O candidato pode utilizar um framework CSS como Bootstrap, Tailwind ou outro
 5️⃣ Opcional: Melhorar a experiência do usuário com efeitos visuais e loading durante a requisição
 
 ### Preview 
-![alt text](image.png)
+![Captura de tela 2025-04-25 224334](https://github.com/user-attachments/assets/6859a42c-0bbc-4031-917c-a9fdb8803fb1)
 
-![alt text](image-1.png)
+![Captura de tela 2025-04-25 224352](https://github.com/user-attachments/assets/4312e0c3-a02c-434c-b5c8-7bad03861365)
 
-![alt text](image-2.png)
+![Captura de tela 2025-04-25 224418](https://github.com/user-attachments/assets/3a2f5fcf-28ff-4ceb-98d7-585abe70800f)
 
 ## Tecnologias utilizadas
 * React
